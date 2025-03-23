@@ -164,18 +164,15 @@ end
 
 LoadSetting()
 
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hieugamingmc747/HieuHub/refs/heads/main/Main.lua"))()
-local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
-local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
-
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local Window = Fluent:CreateWindow({
-    Title = "HieuDz Hub" .. " | ".."BlueLock : Rival".." | ".."[Version 4]",
-    SubTitle = "by HieuDz Skid",
-    TabWidth = 160,
-    Size =  Device, --UDim2.fromOffset(480, 360), --default size (580, 460)
-    Acrylic = false, -- à¸à¸²à¸£à¹€à¸šà¸¥à¸­à¸­à¸²à¸ˆà¸•à¸£à¸§à¸ˆà¸ˆà¸±à¸šà¹„à¸”à¹‰ à¸à¸²à¸£à¸•à¸±à¹‰à¸‡à¸„à¹ˆà¸²à¸™à¸µà¹‰à¹€à¸›à¹‡à¸™ false à¸ˆà¸°à¸›à¸´à¸”à¸à¸²à¸£à¹€à¸šà¸¥à¸­à¸—à¸±à¹‰à¸‡à¸«à¸¡à¸”
-    Theme = "Rose", --Amethyst
-    MinimizeKey = Enum.KeyCode.LeftControl --RightControl
+    Title="VanLong Hub",
+    SubTitle="By VanLong Skid", 
+    TabWidth=155, 
+    Theme="Dark",
+    Acrylic=false,
+    Size=UDim2.fromOffset(555, 320), 
+    MinimizeKey=Enum.KeyCode.End
 })
 
 local Tabs = {
